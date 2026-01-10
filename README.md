@@ -1,50 +1,55 @@
-# Welcome to your Expo app 👋
+# Trackr
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+The app that helps users take back control of their time. Trackr is a lightweight, straightforward way for users to log their time. It is a tool to reflect on how your time is actually spent, allowing you to make a change with intention. 
 
-## Get started
+## Features
 
-1. Install dependencies
+### Daily Timeline
+A scrollable timeline where you can log activities throughout your day. Whether it's work, gym time, meals, or downtime—track it all in one place.
 
-   ```bash
-   npm install
-   ```
+### Manage Activities
+Create and manage reusable activities that you frequently do:
+- Sleep
+- Work
+- Lunch
+- Gym
+- Downtime (TV, social media, etc.)
 
-2. Start the app
+### Daily Reflections
+End each day with intention. Answer reflection prompts like:
+- "What went well today?"
+- "What are you grateful for?"
 
-   ```bash
-   npx expo start
-   ```
+Close out your day mindfully and track your progress over time.
 
-In the output, you'll find options to open the app in a
+### Navigation & Settings
+Simple drawer navigation with everything you need in one place. Access your timeline, activities, and settings.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Framework**: [Expo](https://expo.dev/) ~54.0
+- **Language**: TypeScript
+- **UI Library**: [gluestack-ui v3](https://gluestack.io/)
+- **Navigation**: Expo Router (file-based routing)
+- **Styling**: NativeWind (Tailwind for React Native)
+- **State Management**: React hooks & Context API
 
-## Get a fresh project
+## 🎯 Roadmap
 
-When you're ready, run:
+### MVP (In Progress)
+- [ ] Daily Timeline with activity tracking
+- [ ] Activity management (create, edit, delete)
+- [ ] Drawer navigation
+- [ ] Daily reflection prompts
 
-```bash
-npm run reset-project
-```
+### Post-MVP
+- [ ] Weekly/monthly insights
+- [ ] Charts and visualizations
+- [ ] Activity categories and tags
+- [ ] Export data
+- [ ] Custom reflection questions
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+**Note**: This app is currently in active development. Features and documentation will evolve as the project progresses.
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
