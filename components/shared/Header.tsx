@@ -23,7 +23,7 @@ export default function Header() {
     }
 
     return (
-        <SafeAreaView> 
+        <SafeAreaView edges={['top']}> 
         <Box
             style={{
                 paddingTop: insets.top, // Safe area for status bar/notch

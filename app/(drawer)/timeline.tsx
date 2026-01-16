@@ -1,12 +1,41 @@
-import { Text } from '@/components/ui/text'
+import { CalendarBody, CalendarContainer, CalendarHeader } from '@howljs/calendar-kit'
+import React from 'react'
 
 /**
  * TODO 
  * @returns 
  */
 export default function Timeline() {
+
+    const myEvents = [
+        {
+            id: '1',
+            title: 'Meeting with Team',
+            start: { dateTime: '2026-01-15T10:00:00Z' },
+            end: { dateTime: '2026-01-15T11:00:00Z' },
+            color: '#4285F4',
+        },
+        {
+            id: '2',
+            title: 'Another thing I think?',
+            start: { dateTime: '2026-01-15T12:00:00Z' },
+            end: { dateTime: '2026-01-15T16:00:00Z' },
+            color: '#42f44bff',
+        }       
+    ]
     
     return (
-        <Text>Timeline Screen</Text>
+        <CalendarContainer 
+            numberOfDays={1}
+            events={myEvents}    
+            allowDragToEdit={true}
+            dragStep={15}    
+        >
+            <CalendarHeader
+                dayBarHeight={60}
+                
+            />
+            <CalendarBody />
+        </CalendarContainer>
     )
 }
