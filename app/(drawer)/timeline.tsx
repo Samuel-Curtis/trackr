@@ -11,15 +11,15 @@ export default function Timeline() {
         {
             id: '1',
             title: 'Meeting with Team',
-            start: { dateTime: '2026-01-15T10:00:00Z' },
-            end: { dateTime: '2026-01-15T11:00:00Z' },
+            start: { dateTime: '2026-01-17T10:00:00Z' },
+            end: { dateTime: '2026-01-17T11:00:00Z' },
             color: '#4285F4',
         },
         {
             id: '2',
             title: 'Another thing I think?',
-            start: { dateTime: '2026-01-15T12:00:00Z' },
-            end: { dateTime: '2026-01-15T16:00:00Z' },
+            start: { dateTime: '2026-01-17T12:00:00Z' },
+            end: { dateTime: '2026-01-17T16:00:00Z' },
             color: '#42f44bff',
         }       
     ]
